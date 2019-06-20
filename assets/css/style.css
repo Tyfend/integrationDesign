@@ -5,15 +5,12 @@ body{
     margin: 0;
 }
 
-h1{
-    color: white;
-}
-
-nav li{
+/* NAVIGATION */
+nav li a{
     color: #D58662;
 }
 
-
+/* FOOTER */
 footer{
     background : #1A1A1A;
     font-size: 12px;
@@ -50,4 +47,43 @@ hr{
     padding: 4% 10%;
     text-align: justify;
     font-size: 9px;
+}
+
+.map {
+    padding: 2% 0;
+}
+
+/* HEADER */
+header img{
+   width: 100%;
+   clip-path: polygon(50% 15% , 100% 0,100% 100%, 50% 85%, 0 100%, 0 0);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 30%;
+    clip-path: circle();
+}
+
+
+/* PRESENTATION */
+.presentation{
+    display: flex;
+}
+
+.presentation img{
+    width: 30%;
+}
+
+
+
+.banniere img{
+    width: 100%;
+    clip-path: polygon(0 85%, 100% 85%, 100% 45%, 0 45%);
 }
